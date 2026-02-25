@@ -1,0 +1,19 @@
+{
+    "info": {
+        "appTitle": "Playlist Maker",
+        "version": 0.2,
+        "creators": [
+            {
+                "name": "Iga Smyrak",
+                "role": "Web developer"
+            },
+
+            {
+                "name": "A.N. other",
+                "role": "Web developer"
+            }
+        ],
+
+        "location": "Waterford"
+    }
+}

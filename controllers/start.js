@@ -1,12 +1,22 @@
 'use strict';
 
 import logger from "../utils/logger.js";
+import appStore from "../models/app-store.js";
+
 
 const start = {
+
     createView(request, response) {
-        logger.info("start page loading..");
-        response.send('welcome to igas playlist app');
-    },
+    logger.info("Start page loading!");
+
+    const viewData = {
+        title: "Welcome to the playlist app!",
+        info: appStore.getAppInfo()
+    };
+    
+    //logger.debug(viewData);
+    response.render('start', viewData);
+},
 };
 
 export default start;
