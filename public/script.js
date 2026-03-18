@@ -1,1 +1,5 @@
 console.log("Hello from the web app dev lab");
+
+$('.ui.rating')
+    .rating()
+; 
